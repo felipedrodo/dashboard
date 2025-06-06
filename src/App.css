@@ -3,11 +3,11 @@
   padding: 20px;
   text-align: center;
   background-color: lightblue;
-  justify-items: center; 
 }
 
 .user-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  text-align: center;
 }
