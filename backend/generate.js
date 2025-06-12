@@ -8,8 +8,8 @@ const peoples = lodash.times(50,function(n){
  
     return{
         id: n+1,
-        firstname: firstName,
-        lastname: lastName,
+        firstLame: firstName,
+        lastName: lastName,
         avatar: faker.image.avatar(),
         address: faker.location.streetAddress(),
         email:faker.internet.email({firstName: firstName.toLowerCase(), lastName: lastName.toLowerCase()})

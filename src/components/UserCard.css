@@ -1,15 +1,13 @@
 .user-card {
-    border: 1px solid #ccc;
+    border: 3px solid black;
     border-radius: 10px;
     padding: 16px;
-    width: 220px;
+    width: 247px;
+    min-height: 220px;
     text-align: center;
     margin: 10px;
-    background-color: lightcyan;
+    background-color: lightgray;
     box-sizing: border-box;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    justify-items: center;
 }
 
 .user-card img {
